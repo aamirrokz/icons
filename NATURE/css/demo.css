@@ -1,0 +1,26 @@
+        body {
+            background: #007991;
+            background: -webkit-linear-gradient(to right, #78ffd6, #007991);
+            background: linear-gradient(to right, #78ffd6, #007991);
+        }
+        
+        h1.nature {
+            border: solid black 2px;
+            color: white;
+            margin: 0;
+            padding: 0px;
+            background-size: cover;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-size: 20vw;
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            position: relative;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, 50%);
+        }
+        
+        .nature {
+            background: url('https://wallpaperscraft.com/image/forest_lake_reflection_island_mist_97668_1920x1080.jpg')no-repeat;
+        }

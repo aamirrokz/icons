@@ -1,0 +1,19 @@
+<html>
+<head>
+	
+</head>
+<script language=”JavaScript”>
+function newpages(cont)
+{ 
+	var msg="Welcome " + cont; 
+	window.navigate(“newpage.html”);
+	window.document.write(msg);
+}
+	</script><body><form name=”form1” method=”post” action=””>
+	<p> 
+	<input name=”name” type=”text” id=”name” value=”aa”> </p>
+	<p> <input type=”submit” name=”Submit” value=”Enter”onClick=”newpages(form1.name.value)”> </p>
+	</form>
+ 
+</body>
+</html>
